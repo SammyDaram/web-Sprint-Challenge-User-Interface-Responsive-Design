@@ -4,7 +4,7 @@
 
 <head>
 	<meta charset="utf-8">
-
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Sprint Challenge - Home</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Roboto|Rubik" rel="stylesheet">
@@ -16,55 +16,37 @@
 	<div>
 		<!-- header -->
 		<header>
-			<div>
+			<a href="index.html">
 				<h1>BLOOMTECH BAR AND GRILL</h1>
-				<!-- nav -->
-				<nav>
-					<a href="#menu.html">Menu</a>
-					<a href="#">Reservations</a>
-					<a href="#">Special Offers</a>
-					<a href="#">Contact</a>
-				</nav>
-				<div class="socialMedia">
-<!-- * [ ] Create social media buttons on header for [Facebook](https://fontawesome.com/search?q=facebook&s=solid%2Cbrands), [Twitter](https://fontawesome.com/search?q=twitter&s=solid%2Cbrands), and [Instagram](https://fontawesome.com/search?q=instagram&s=solid%2Cbrands) with the linked icons. -->
-					<a href="https://fontawesome.com/search?q=facebook&s=solid%2Cbrands"><i class="fab fa-facebook"></i></a>
-					<a href="https://fontawesome.com/search?q=twitter&s=solid%2Cbrands"><i class="fab fa-twitter"></i></a>
-					<a href="https://fontawesome.com/search?q=instagram&s=solid%2Cbrands"><i class="fab fa-instagram"></i></a>
+			</a>
+			<!-- nav -->
+			<nav>
+				<a href="#menu.html">Menu</a>
+				<a href="reservations">Reservations</a>
+				<a href="special offers">Special Offers</a>
+				<a href="contact">Contact</a>
+				<div>
+					<i class="fab fa-facebook"></i>
+					<i class="fab fa-twitter"></i>
+					<i	class="fab fa-instagram"></i>
 				</div>
-			</div>
+			</nav>
+
 		</header>
 
 		<!-- gallery section -->
 		<section class="gallery">
 			<div>
 				<h2>OUR FOOD</h2>
-
-				<img src="img/food-avocadotoast.jpg" alt="f a">
-				img/food-avocadotoast.jpg
-
-				<img src="img/food-burger.jpg" alt="f b">
-				img/food-burger.jpg
-
-				<img src="img/food-poutine.jpg" alt="f p">
-				img/food-poutine.jpg
-
-				<img src="img/food-ribs.jpg" alt="f r">
-				img/food-ribs.jpg
-
-				<img src="img/food-sandwich.jpg" alt="f s">
-				img/food-sandwich.jpg
-
-				<img src="img/food-sausage.jpg" alt="f s">
-				img/food-sausage.jpg
-
-				<img src="img/food-steak.jpg" alt="f s">
-				img/food-steak.jpg
-
-				<img src="img/food-tacos.jpg" alt="f t">
-				img/food-tacos.jpg
-
-				<img src="img/food-wings.jpg" alt="f w">
-				img/food-wings.jpg
+				<img src="img/food-avocadotoast.jpg" alt="avocadotoast"/>
+				<img src="img/food-burger.jpg" alt="food-burger"/>
+				<img src="img/food-poutine.jpg" alt="food-poutine"/>
+				<img src="img/food-ribs.jpg" alt="food-ribs"/>
+				<img src="img/food-sandwich.jpg" alt="food-sandwich"/>
+				<img src="img/food-sausage.jpg" alt="food-sausage"/>
+				<img src="img/food-steak.jpg" alt="food-steak"/>
+				<img src="img/food-tacos.jpg" alt="food-tacos"/>
+				<img src="img/food-wings.jpg" alt="food-wings"/>
 			</div>
 		</section>
 
@@ -142,15 +124,24 @@
 		<!-- footer -->
 		<footer>
 			<!-- email signup -->
-			Join our mailing list!
-			Sign Up
+			<div class="submit">
+				<h4>Join our mailing list!</h4>
+				<form action="#">
+					<input type="text" placeholder="Email Address"><button type="submit">Sign Up</button>
+				</form>
+			</div>
 			<!-- nav -->
-			Menu
-			Reservations
-			Special Offers
-			Contact
+			<nav>
+				<a href="#menu.html">Menu</a>
+				<a href="#">Reservations</a>
+				<a href="#">Special Offers</a>
+				<a href="#">Contact</a>
+			</nav>
 			<!-- copyright -->
-			©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
+			<div class="copyright">
+				<p>©2022 <a href="#" target="_blank">BloomTech Restaurant Group, Inc. All Rights Reserved.</a></p>
+			</div>
+
 		</footer>
 	</div>
 </body>
